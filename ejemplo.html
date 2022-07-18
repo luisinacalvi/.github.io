@@ -1,0 +1,24 @@
+
+<html>
+  <head>
+  <script type="text/javascript">
+  function PromptDemo() {
+  //Ingresamos un mensaje a mostrar
+  var color = prompt("¿Cuál es color favorito?", "");
+  //Detectamos si el usuario ingreso un valor
+  if (color != null){
+  alert("Tu color favorita es " + color);
+  }
+  //Detectamos si el usuario NO ingreso un valor
+  else {
+  alert("No has ingresado un color");
+  }
+  }
+  </script>
+  </head>
+  <body>
+  <form>
+  <input type="button" onclick="PromptDemo()" value="Click para ver tu color favorito" />
+  </form>
+  </body>
+  </html>
